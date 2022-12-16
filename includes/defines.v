@@ -1,0 +1,10 @@
+`define WORD_WIDTH 16
+`define ALUOP_WIDTH 5
+
+`define ALU_ADD `ALUOP_WIDTH'd1
+`define ALU_SUB `ALUOP_WIDTH'd2
+`define ALU_AND `ALUOP_WIDTH'd3
+`define ALU_OR `ALUOP_WIDTH'd4
+`define ALU_XOR `ALUOP_WIDTH'd5
+`define ALU_SL `ALUOP_WIDTH'd6
+`define ALU_SR `ALUOP_WIDTH'd7
