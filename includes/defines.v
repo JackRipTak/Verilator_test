@@ -1,5 +1,12 @@
-`define WORD_WIDTH 16
+`define WORD_WIDTH 32
+`define ADDR_WIDTH 32
 `define ALUOP_WIDTH 5
+`define RADDR_WIDTH 6
+`define INS_WIDTH 32
+`define OP_WIDTH 6
+`define INS_LIM 100
+`define ORI_IMM_WIDTH 16
+`define ORI_ADDR_WIDTH 26
 
 `define ALU_ADD `ALUOP_WIDTH'd1
 `define ALU_SUB `ALUOP_WIDTH'd2
